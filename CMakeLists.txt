@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.5)
 project(TutorialQT)
 
 set(CMAKE_CXX_STANDARD 11)
@@ -9,9 +9,6 @@ set(SOURCE_FILES main.cpp)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC OFF)
 set(CMAKE_AUTOUIC ON)
-
-set(QT_HEADERS view_mic.h xyseriesiodevice.h luncher.h testClass.h)
-set(QT_FORMS vt_main.ui)
 
 
 # dependency
